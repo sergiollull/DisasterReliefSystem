@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SifremiUnuttum">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ŞİFREMİ YENİLEME EKRANI"
+                android:textAlignment="center"
+                android:textColor="#F60303"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/unuttumemail"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/rounded"
+                android:drawableLeft="@drawable/ic_baseline_email_24"
+                android:drawablePadding="8dp"
+                android:hint="E-Mail"
+                android:padding="8dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="239dp"
+                tools:ignore="MissingConstraints" />
+
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttonyenile"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/white"
+                android:background="@drawable/roundedbutton"
+                android:text="YENİLE"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

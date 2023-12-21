@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:elevation="100dp"
+    tools:context=".CadirKentDuzenle">
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/rv"
+       android:padding="15dp">
+       <ImageView
+           android:layout_width="35dp"
+           android:layout_height="35dp"
+           android:src="@drawable/tent_3_svgrepo_com"
+           android:layout_centerVertical="true"
+           android:id="@+id/img1"
+
+          />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/cadiril"
+           android:hint="İl"
+           android:textSize="15sp"
+           android:layout_toRightOf="@id/img1"
+           android:layout_marginLeft="10dp"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/cadirilce"
+           android:hint="İlçe"
+           android:textSize="15sp"
+
+           android:layout_marginTop="25dp"
+           android:layout_toRightOf="@id/img1"
+           android:layout_marginLeft="10dp"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/cadirmahalle"
+           android:hint="Mahalle"
+           android:textSize="15sp"
+           android:layout_marginTop="50dp"
+           android:layout_toRightOf="@id/img1"
+           android:layout_marginLeft="10dp"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/cadirsokak"
+           android:hint="Sokak"
+           android:textSize="15sp"
+           android:layout_marginTop="75dp"
+           android:layout_toRightOf="@id/img1"
+           android:layout_marginLeft="10dp"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/cadirbosyer"
+           android:hint="Boş Yer"
+           android:textSize="15sp"
+           android:layout_marginTop="100dp"
+           android:layout_toRightOf="@id/img1"
+           android:layout_marginLeft="10dp"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/cadirenlem"
+           android:hint="Enlem"
+           android:textSize="15sp"
+           android:layout_marginTop="125dp"
+           android:layout_toRightOf="@id/img1"
+           android:layout_marginLeft="10dp"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/cadirboylam"
+           android:hint="Boylam"
+           android:textSize="15sp"
+           android:layout_marginTop="150dp"
+           android:layout_toRightOf="@id/img1"
+           android:layout_marginLeft="10dp"/>
+            <LinearLayout
+                android:layout_below="@id/cadirboylam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Düzenle"
+                    android:id="@+id/cadirkenteditle"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/roundedbutton"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="55dp"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/roundedbutton"
+                    android:textColor="@color/white"
+                    android:text="sil"
+                    android:id="@+id/cadirkentsil"
+                    android:layout_marginLeft="50dp"/>
+
+            </LinearLayout>
+
+
+   </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

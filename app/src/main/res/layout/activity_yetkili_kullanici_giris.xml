@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".YetkiliKullaniciGiris">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YETKİLİ KULLANICI GİRİŞ"
+                android:textAlignment="center"
+                android:textColor="#F60303"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/yetkiligirisemail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/rounded"
+                android:drawableLeft="@drawable/ic_baseline_email_24"
+                android:drawablePadding="8dp"
+                android:hint="E-Mail"
+                android:padding="8dp" />
+
+            <EditText
+                android:id="@+id/yetkiligirissifre"
+                android:layout_width="match_parent"
+                android:inputType="textPassword"
+                android:layout_height="50dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/rounded"
+                android:drawableLeft="@drawable/ic_baseline_password_24"
+                android:drawablePadding="8dp"
+                android:hint="Şifre"
+                android:padding="8dp" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/yetkiligirisbutton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/roundedbutton"
+                android:text="Giriş YAP"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/yetkilisifremiunuttum"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/roundedbutton"
+                android:text="Şifremi Unuttum"
+                android:textColor="@color/white"
+
+                android:textSize="18sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>

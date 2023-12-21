@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".CadirKentEdit">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YARDIM NOKTASI VERİ DÜZENLE"
+                android:textAlignment="center"
+                android:textColor="#F60303"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/yardimilduzenle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded"
+                android:drawableLeft="@drawable/ic_baseline_location_city_24"
+                android:drawablePadding="8dp"
+                android:hint="İl"
+                android:padding="8dp" />
+
+            <EditText
+                android:id="@+id/yardimilceduzenle"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rounded"
+                android:drawableLeft="@drawable/ic_baseline_location_city_24"
+                android:drawablePadding="8dp"
+                android:hint="İlçe"
+                android:padding="8dp" />
+
+            <EditText
+                android:id="@+id/yardimmahalleduzenle"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rounded"
+                android:drawableLeft="@drawable/ic_baseline_location_city_24"
+                android:drawablePadding="8dp"
+                android:hint="Mahalle"
+                android:padding="8dp" />
+
+            <EditText
+                android:id="@+id/yardimsokakduzenle"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rounded"
+                android:drawableLeft="@drawable/ic_baseline_location_city_24"
+                android:drawablePadding="8dp"
+                android:hint="Sokak"
+                android:padding="8dp" />
+
+            <EditText
+                android:id="@+id/yardimicerikduzenle"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rounded"
+                android:drawableLeft="@drawable/help_1435_svgrepo_com"
+                android:drawablePadding="8dp"
+                android:hint="İçerik"
+                android:padding="8dp" />
+            <EditText
+                android:id="@+id/yardimsaatduzenle"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rounded"
+                android:drawableLeft="@drawable/ic_baseline_access_time_24"
+                android:drawablePadding="8dp"
+                android:hint="Saat"
+                android:padding="8dp" />
+
+            <EditText
+                android:id="@+id/yardimenlemduzenle"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rounded"
+                android:drawableLeft="@drawable/ic_baseline_edit_location_alt_24"
+                android:drawablePadding="8dp"
+                android:hint="Enlem"
+                android:padding="8dp" />
+
+            <EditText
+                android:id="@+id/yardimboylamduzenle"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rounded"
+                android:drawableLeft="@drawable/ic_baseline_edit_location_alt_24"
+                android:drawablePadding="8dp"
+                android:hint="Boylam"
+                android:padding="8dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/yardimduzenlekaydet"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/roundedbutton"
+                android:text="Kaydet"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

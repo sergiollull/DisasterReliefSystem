@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "73351961159",
+    "firebase_url": "https://disasterreliefsystem-a8f65-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "disasterreliefsystem-a8f65",
+    "storage_bucket": "disasterreliefsystem-a8f65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73351961159:android:b9926d2bc34b22d5786f62",
+        "android_client_info": {
+          "package_name": "com.example.disasterreliefsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73351961159-87qah52bntpjatlo7ds38gv09u1pu15g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDv8fNseLpKz-Z6bDf9VClBwePz6iBJmo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "73351961159-87qah52bntpjatlo7ds38gv09u1pu15g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
